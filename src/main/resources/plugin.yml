@@ -1,0 +1,13 @@
+name: ConfigSearcher
+version: '${project.version}'
+main: femboys.are.cute.configsearcher.ConfigSearcher
+author: FemBoysAreCut3
+commands:
+  searchconfigs:
+    description: Durchsucht alle Config-Dateien nach einer Nachricht.
+    permission: configsearcher.use
+    usage: /searchconfigs <nachricht>
+  searchjars:
+    description: Durchsucht alle Plugin-Jar-Dateien nach einer Nachricht.
+    permission: configsearcher.use
+    usage: /searchjars <nachricht>
